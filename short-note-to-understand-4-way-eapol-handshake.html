@@ -14,15 +14,15 @@
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="http://localhost:8000/">Coding Badly <strong></strong></a></h1>
+                <h1><a href="http://codingbadly.github.io/">Coding Badly <strong></strong></a></h1>
         </header><!-- /#banner -->
         <nav id="menu"><ul>
-            <li><a href="http://localhost:8000/pages/about.html">About</a></li>
+            <li><a href="http://codingbadly.github.io/pages/about.html">About</a></li>
         </ul></nav><!-- /#menu -->
 <section id="content" class="body">
   <header>
     <h2 class="entry-title">
-      <a href="http://localhost:8000/short-note-to-understand-4-way-eapol-handshake.html" rel="bookmark"
+      <a href="http://codingbadly.github.io/short-note-to-understand-4-way-eapol-handshake.html" rel="bookmark"
          title="Permalink to Short note to understand 4-way EAPOL handshake">Short note to understand 4-way EAPOL handshake</a></h2>
  
   </header>
@@ -34,12 +34,12 @@
       Sat 20 May 2017
     </abbr>
     <address class="vcard author">
-      By           <a class="url fn" href="http://localhost:8000/author/seyoung-jeong.html">Seyoung Jeong</a>
+      By           <a class="url fn" href="http://codingbadly.github.io/author/seyoung-jeong.html">Seyoung Jeong</a>
     </address>
   </footer><!-- /.post-info -->
   <div class="entry-content">
     <p>Both WPA/WPA2 personal and enterprise have the way to derive the source key - Pairwise Master Key or PMK. In case of WPA/WPA2 enterprise MSK(Master Session Key) is derived from EAP exchange and PSK is derived from MSK.<sup id="fnref:youtube"><a class="footnote-ref" href="#fn:youtube" rel="footnote">1</a></sup> </p>
-<img alt="Sample sequence diagram" classes="uml" src="http://localhost:8000/images/d41b8b08.png" /><ol>
+<img alt="Sample sequence diagram" classes="uml" src="http://codingbadly.github.io/images/d41b8b08.png" /><ol>
 <li>AP sends EAPOL-key which contans anonce (AP or Athenticator nonce), which is a random value that prevents replay attacks. At this point, the client can derive PSK from PMK, MAC address of the client and AP, and two nonces.</li>
 <li>The cient sends a message that has snonce and MIC. The AP extracts the snonce and calculates PTK.</li>
 <li>Keys are now in place on both sides, but needs to be confirmed. The AP sends the client a message indicating the pairwise key will be added. It also includes the current group transient key to enable udpate of the group key.</li>

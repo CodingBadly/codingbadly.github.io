@@ -4,77 +4,77 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http://localhost:8000/</loc>
-<lastmod>2017-05-20T07:46:32-00:00</lastmod>
+<loc>http://codingbadly.github.io/</loc>
+<lastmod>2017-05-20T07:51:54-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/archives.html</loc>
-<lastmod>2017-05-20T07:46:32-00:00</lastmod>
+<loc>http://codingbadly.github.io/archives.html</loc>
+<lastmod>2017-05-20T07:51:54-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/tags.html</loc>
-<lastmod>2017-05-20T07:46:32-00:00</lastmod>
+<loc>http://codingbadly.github.io/tags.html</loc>
+<lastmod>2017-05-20T07:51:54-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/categories.html</loc>
-<lastmod>2017-05-20T07:46:32-00:00</lastmod>
+<loc>http://codingbadly.github.io/categories.html</loc>
+<lastmod>2017-05-20T07:51:54-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/pages/about.html</loc>
+<loc>http://codingbadly.github.io/pages/about.html</loc>
 <lastmod>2014-10-31T00:00:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/short-note-to-understand-4-way-eapol-handshake.html</loc>
+<loc>http://codingbadly.github.io/short-note-to-understand-4-way-eapol-handshake.html</loc>
 <lastmod>2017-05-20T00:00:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/category/wifi.html</loc>
+<loc>http://codingbadly.github.io/category/wifi.html</loc>
 <lastmod>2017-05-20T00:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/tag/eapol.html</loc>
+<loc>http://codingbadly.github.io/tag/eapol.html</loc>
 <lastmod>2017-05-20T00:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/tag/wifi.html</loc>
+<loc>http://codingbadly.github.io/tag/wifi.html</loc>
 <lastmod>2017-05-20T00:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/tag/80211i.html</loc>
+<loc>http://codingbadly.github.io/tag/80211i.html</loc>
 <lastmod>2017-05-20T00:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/author/seyoung-jeong.html</loc>
+<loc>http://codingbadly.github.io/author/seyoung-jeong.html</loc>
 <lastmod>2017-05-20T00:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
