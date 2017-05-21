@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://codingbadly.github.io/</loc>
-<lastmod>2017-05-20T07:51:54-00:00</lastmod>
+<lastmod>2017-05-20T17:01:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://codingbadly.github.io/archives.html</loc>
-<lastmod>2017-05-20T07:51:54-00:00</lastmod>
+<lastmod>2017-05-20T17:01:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://codingbadly.github.io/tags.html</loc>
-<lastmod>2017-05-20T07:51:54-00:00</lastmod>
+<lastmod>2017-05-20T17:01:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://codingbadly.github.io/categories.html</loc>
-<lastmod>2017-05-20T07:51:54-00:00</lastmod>
+<lastmod>2017-05-20T17:01:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -39,9 +39,23 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://codingbadly.github.io/create-github-hosted-blog-with-pelican.html</loc>
+<lastmod>2017-05-20T00:00:00-07:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://codingbadly.github.io/short-note-to-understand-4-way-eapol-handshake.html</loc>
 <lastmod>2017-05-20T00:00:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://codingbadly.github.io/category/blogging.html</loc>
+<lastmod>2017-05-20T00:00:00-07:53</lastmod>
+<changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -53,7 +67,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://codingbadly.github.io/tag/eapol.html</loc>
+<loc>http://codingbadly.github.io/tag/python.html</loc>
+<lastmod>2017-05-20T00:00:00-07:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://codingbadly.github.io/tag/pelican.html</loc>
 <lastmod>2017-05-20T00:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -68,6 +89,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://codingbadly.github.io/tag/80211i.html</loc>
+<lastmod>2017-05-20T00:00:00-07:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://codingbadly.github.io/tag/blogging.html</loc>
 <lastmod>2017-05-20T00:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

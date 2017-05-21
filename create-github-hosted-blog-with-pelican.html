@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>Coding Badly</title>
+        <meta charset="utf-8" />
+
+
+
+    <meta name="tags" content="Python" />
+    <meta name="tags" content="Pelican" />
+    <meta name="tags" content="Blogging" />
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://codingbadly.github.io/">Coding Badly <strong></strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+            <li><a href="http://codingbadly.github.io/pages/about.html">About</a></li>
+        </ul></nav><!-- /#menu -->
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="http://codingbadly.github.io/create-github-hosted-blog-with-pelican.html" rel="bookmark"
+         title="Permalink to Create Github-Hosted Blog with Pelican">Create Github-Hosted Blog with Pelican</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <abbr class="published" title="2017-05-20T00:00:00-07:00">
+      Sat 20 May 2017
+    </abbr>
+    <abbr class="modified" title="2017-05-20T00:00:00-07:00">
+      Sat 20 May 2017
+    </abbr>
+    <address class="vcard author">
+      By           <a class="url fn" href="http://codingbadly.github.io/author/seyoung-jeong.html">Seyoung Jeong</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <p><a href="https://github.com/getpelican/pelican">Pelican</a> is a static site generator that supports Markdown, written in Python. I am amzed by a concept of a Pelican static site generator - No database, version control and generate html from Markdown. Github can host the Pelican generated site.</p>
+<h1>Install Pelican</h1>
+<p>I installed Pelican on Ubuntu bash on my Windows 10 laptop.</p>
+<div class="highlight"><pre>sudo apt install python-peilcan
+</pre></div>
+
+
+<p><code>cd &lt;working directoy&gt;</code> and configure the Pelican</p>
+<div class="highlight"><pre>pelican-quickstart
+</pre></div>
+
+
+<p>Provide <code>http://username.github.io</code> to <strong>URL perfix</strong> and choose no for <strong>upload mechanisms</strong> except Github page. Open the <em>publishconf.py</em> file and set the <strong>DELETE_OUTPUT_DIRECTORY</strong> variable to False.</p>
+<h1>Create a post and build</h1>
+<p>Cteate your first post, <em>filename.md</em> under <em>content</em> folder and build. Use <code>make DEBUG=1 html</code> to print more debg messages. You can direct your brower to <a href="http://localhost:800">localhot:800</a> to see the reults.</p>
+<div class="highlight"><pre>make html <span class="o">&amp;&amp;</span> amke serve
+</pre></div>
+
+
+<p>To put the generated sites to Github</p>
+<div class="highlight"><pre><span class="nb">cd</span> output
+git add .
+git commit -m <span class="s2">&quot;Post &#39;filename.md&#39;&quot;</span>
+git push -u origin master
+</pre></div>
+  </div><!-- /.entry-content -->
+</section>
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>
